@@ -1,11 +1,12 @@
 Features:
+- Download hundreds of videos on one run. No more tubemating videos one by one
+- Keep it for downloading, take a walk. When it is done, it'll send notification to your Mobile through pushbullet integration
+- Configurable Video Quality 
+- Ability to download Music only if needed
 
 
 
-
-
-
-How to run the Downloader :
+How to run the Youtube Downloader :
 
 
 1. Make sure that Python 3.x is installed from https://www.python.org/downloads/
@@ -35,5 +36,10 @@ How to run the Downloader :
 		- pushbullet_authkey.txt
 			- Contains access token through which the script can send appropriate Pushbullet notifications
 			- Get pushbullet access token at https://www.pushbullet.com/#settings/account
+
+
+Future Enhancements :
+
+Read the youtube_links.txt from a remote file. Run the script from RaspberryPi periodically using CRON job to have media center of offline streamable high quality videos.
 
 
